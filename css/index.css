@@ -1,0 +1,423 @@
+@font-face {
+    font-family: 'respect';
+    src: url(../Montserrat/Montserrat-VariableFont_wght.ttf) format('woff2');
+}
+*{ 
+    padding: 0;
+    margin: 0;
+    font-family: 'respect';
+}
+h1{
+    font-size: 96px;
+    font-weight: 600;
+    color: rgb(0, 109, 53);
+    margin-top: 17%;
+    width: 60%;
+}
+h6{
+    font-size: 20px;
+    color: rgb(0, 109, 53);
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.font-regular-20{
+    font-size: 20px;
+}
+p{
+    font-size: 48px;
+    font-weight: lighter;
+}
+.colour-faint-grey{
+    font-size: 20px;
+    color: rgb(207, 207, 207);
+}
+.corner-circle{
+    background-image: url("../images/corner-circle.jpg");
+    background-position: 85%;
+    background-size: cover;
+    width: 100%;
+    height: 110vh;
+}
+
+/* NAVIGATION-SECTION */
+.navigation-section{
+    display: flex;
+    padding: 20px;
+    width: 65%;
+}
+.bilboard-logo{
+    width: 104px;
+    height: 40px;
+}
+.navbar{
+    padding-left: 50px;
+}
+.navbar ul a{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(34, 167, 0);
+    text-decoration: none;
+}
+.active-indicater{
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid rgb(34, 167, 0);
+    border-radius: 30px;
+}
+
+/* BILBOARD-SECTION */
+.bilboard-section{
+    padding-left: 20px;
+}
+
+/* ABOUT-SECTION */
+.about-section{
+    padding: 150px 0px 70px 100px;
+}
+.about-section-ptext{
+    width: 85%;
+}
+.about-section-plants-icon{
+    margin-left: 25%;
+}
+.about-section-faintText{
+    width: 34%;
+    margin-left: 30%;
+}
+.about-section-partnershipIcon{
+    margin-left: 48%;
+}
+.about-section-faintText2{
+    width: 33%;
+    margin-left: 52%;
+}
+.about-section-second-ptext{
+    width: 87%;
+    margin-bottom: 4%;
+}
+.about-section-last-ptext{
+    margin-bottom: 4%;
+}
+.button-text{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(34, 167, 0);
+    text-decoration: none;
+}
+.button-text-and-icon{
+    display: flex;
+}
+.about-section-readMore{
+    margin: 1% 2% 0% 57%;  
+}
+.green-house-crops-image{
+    width: 100%;
+    height: 100vh;
+}
+
+/* WHY-AFRICA-SECTION */
+.why-africa-heading{
+    margin: 100px 0px 50px 100px;
+}
+.why-africa-ptext{
+    width: 85%;
+    margin: 0px 0px 100px 100px;
+}
+.first-green-card{
+    background-image: url("../images/greencard1.png");
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    height: 517px;
+    padding: 20% 0% 20% 15%;
+}
+.second-green-card{
+    background-image: url("../images/greencard2.png");
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    height: 517px;
+    padding: 20% 0% 20% 15%;
+}
+.third-green-card{
+    background-image: url("../images/greencard3.png");
+    background-size: cover;
+    background-position: right;
+    width: 100%;
+    height: 517px;
+    padding: 20% 0% 20% 15%;
+}
+.cards-heading-text{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    width: 80%;
+}
+.cards-ptext{
+    color: white;
+    font-weight: bold;
+}
+.first-card{
+    width: 83%;
+}
+.first-and-second-card{
+    width: 88%;
+}
+span{
+    color: rgb(0, 109, 53);
+}
+
+/* INVESTEMENT-APPROACH-SECTION */
+.our-investements-section{
+    padding: 150px 0px 50px 100px;
+}
+.our-investements-ptext{
+    width: 90%;   
+}
+.investements-section-icons{
+    display: flex;
+}
+.green-ellipse-ptext{
+    width: 48%;
+}
+.faint-grey-ellipse-ptext2{
+    width: 48%;
+}
+.faint-grey-ellipse-ptext3{
+    width: 59%;
+}
+.investment-section-findMore{
+    margin: 1% 2% 0% 54%;  
+}
+
+/* THE-TEAM-SECTION */
+.the-team-section{
+    padding-bottom: 7%;
+}
+.the-team-heading{
+    margin: 7% 0% 2% 7%;
+}
+.team-photos{
+   margin: 48% 2% 0% 0%;
+}
+.person-name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 23%;
+}
+.ceo-ptext{
+    font-weight: 500;
+}
+.person-description{
+    font-size: 24px;
+    font-weight: lighter;
+    width: 80%;
+    margin: 10% 0% 6% 0%;
+}
+
+/* OUR-STRATEGIC-PARTNERS */
+.strategic-partners-heading{
+    margin-left: 10%;
+}
+.brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding-bottom: 13%;
+ }
+
+/* FOOTER-SECTION */
+.footer-section{
+    padding: 0% 4% 2% 4%;
+    background-color: rgb(245, 245, 245);
+}
+ul{
+    padding-left: 0px;
+    padding-bottom: 2%;
+}
+ul a{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(34, 167, 0);
+    text-decoration: none;
+}
+.Investement-anchorText{
+    margin: 0% 2% 0% 2%;
+}
+.footer-contact-details{
+    display: flex;
+    gap: 40px;
+}
+.footer-headings{
+    font-size: 20px;
+    color: rgb(0, 109, 53);
+    font-weight: bold;
+}
+.footer-line{
+    background-color: rgb(207, 207, 207);
+    width: 1110px;
+    height: 2px;
+    margin: 4% 0% 2% 0%;
+}
+.footer-line-div{
+    display: flex;
+    justify-content: center;
+}
+.footer-last-section{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-last-text{
+    color: rgb(0, 109, 53);
+}
+
+/* ABOUT-US-SECOND-PAGE-FIRST-SECTION */
+.about-us-first-section{
+    padding: 0% 0% 7% 0%;
+}
+.h6-and-icon{
+    display: flex;
+}
+.about-us-h6{
+    margin: 1.5% 0% 0% 2%;
+}
+.about-us-ptext{
+    width: 70%;
+    margin: 6% 0% 6% 6%;
+}
+.small-green-heading{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 109, 53);
+    margin-bottom: 2%;
+}
+.our-mission-ptext-container{
+    margin-left: 6%;
+}
+.our-mission-ptext{
+    width: 90%;
+}
+.our-vision-ptext{
+    width: 70%;
+}
+.our-values-ptext{
+    width: 50%;
+}
+
+/* WHY-US-SECTION */
+.why-us-section{
+    padding: 0% 7% 10% 7%;
+    background-color: rgb(245, 245, 245);
+}
+.why-us-second-third-paragraphy{
+    width: 95%;
+}
+.second-paragraphy{
+    margin: 3% 0% 3% 0%;
+}
+.why-us-third-paragraphy{
+    margin-bottom: 7%;
+}
+.paragraphs-sections {
+    margin-left: 25%;
+}
+.second-paragraphs-sections{
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.ptext-width{
+    width: 95%;
+}
+
+/* THIRD-PAGE */
+
+/* OUR STRATEGY */
+.corner-circle2{
+    background-image: url("../images/corner-circle2.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 115vh;
+    padding-top: 7%;
+}
+.our-strategy-section{
+    padding: 7% 7% 7% 7%;
+}
+.our-strategy-ptext{
+    width: 90%;
+}
+.first-paragraph{
+    margin-bottom: 3%;
+}
+
+/* WITH-FOCUS-AREA-SECTION */
+.with-focus-area-section{
+    padding: 0% 0% 7% 15%;
+    background-color: rgb(245, 245, 245);
+}
+.small-faintGrey-heading{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(207, 207, 207);
+    margin-bottom: 2%;
+}
+.faintGrey-ptext{
+    color: rgb(207, 207, 207); 
+}
+.focus-area-second-paragraphy{
+    margin: 45% 0% 45% 0%;
+}
+.focus-area-section-ptext{
+    width: 93%;
+}
+
+/* OUR-DEALFLOW-SECTION */
+.our-dealflow-section{
+    padding: 0% 7% 7% 7%;
+    background-color: rgb(245, 245, 245);
+}
+.deal-flow-heading{
+    margin: 0% 0% 7% 7%;
+}
+.cards{
+    height: 470px;
+    background-color: transparent;
+    border: 2px solid rgb(34, 167, 0);
+    border-radius: 15px;
+    padding: 10% 10% 7% 7%;
+    position: relative;
+}
+.medium-font-weight{
+    font-weight: 250;
+}
+.green-triange{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    align-self: center;
+}
+.green-triange1{
+    margin-left: 19%;
+}
+.green-triange2{
+    margin-left: 41%;
+}
+.green-triange3{
+    margin-left: 63%;
+}
+
+/* OUR-CAPITAL-STRUCTURE-SECTION */
+.our-capital-structure-section{
+    padding: 0% 7% 7% 7%;
+    background-color: rgb(245, 245, 245);
+}
+.font-size-32-ptext{
+    font-size: 32px;
+    width: 95%;
+}
+.green-heading-spacing{
+    margin-top: 7%;
+}
